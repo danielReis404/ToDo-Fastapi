@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 from fastapi.testclient import TestClient
 
-from src.aula02 import app
+from aula02 import app
 
 
 def test_html_response():
